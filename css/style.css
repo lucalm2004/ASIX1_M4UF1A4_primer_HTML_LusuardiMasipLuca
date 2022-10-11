@@ -11,13 +11,18 @@ html{
 
 }
 
+
+
 .encabezado h1 {
     height: 100%;
     background-color: white;
     text-align: center;
     padding-bottom: 0.5%;
 }
-.encabezado img{
+
+.encabezado i{
+    display: flex ;
+
     height: 5%;
     width: 2.5%;
     float: left;
@@ -25,7 +30,15 @@ html{
     border-radius: 20px;
     margin-left: 1%;
     margin-top: 5px;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
 }
+
+}
+
 .imagenesf{
     width: 100vh;
 }
